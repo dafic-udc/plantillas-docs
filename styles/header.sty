@@ -1,0 +1,16 @@
+\ProvidesPackage{styles/header}
+
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{adjustbox}
+
+\pagestyle{fancy}
+\setlength{\headheight}{2cm}
+
+\newcommand{\headerName}{\parbox{0.45\textwidth}{DIVISIÓN DO ALUMNADO DA \\ FACULTADE DE INFORMÁTICA \\ DA CORUÑA (DAFIC)}}
+
+\lhead{\raisebox{\height}{\adjustbox{valign=c}{\includegraphics[width=1.5cm]{images/Logo_DAFIC_redondo.png}} \quad \adjustbox{valign=c}{\headerName}}}
+
+\chead{} % Sin logo central
+
+\rhead{\raisebox{2.85\height}{\headerSubject}}

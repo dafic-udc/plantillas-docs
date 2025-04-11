@@ -1,0 +1,68 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{left=2.5cm, right=2.5cm, top=3cm, bottom=3cm}
+
+% CUSTOM STYLES
+\usepackage{styles/header}
+
+% PACKAGES
+\usepackage{textcase}
+\usepackage{romannum}
+\usepackage[spanish]{babel}
+
+% DEFINITIONS
+\newcommand{\nombreAsociacion}{División do Alumnado da Facultade de Informática da Coruña (DAFIC)}
+
+\newcommand{\firmanteNombre}{El presidente molón} % Nombre Apelidos
+\newcommand{\firmanteCargo}{Presidente} % Cargo
+
+\newcommand{\headerSubject}{CONVOCATORIA  DE ASAMBLEA}
+
+\newcommand{\assemblyNumber}{1}
+\newcommand{\assemblyName}{\Romannum{\assemblyNumber}~Asamblea General}
+\newcommand{\assemblyOr}{\assemblyName~Ordinaria}
+\newcommand{\assemblyEx}{\assemblyName~Extraordinaria}
+
+\newcommand{\subject}{CONVOCATORIA \\ \MakeUppercase{\assemblyEx}}
+
+% DOCUMENT
+
+\begin{document}
+
+\begin{center}
+    \large \textbf{\subject}
+\end{center}
+
+\vspace{0.5cm}
+
+\noindent Estimados socios y socias,
+
+\noindent Por la presente, se convoca a todos los miembros de la \textbf{\nombreAsociacion} a la \textbf{\assemblyEx}, que se celebrará el próximo:
+
+\begin{center}
+    \textbf{Domingo 30 de marzo, de 11:00 a 14:00 horas.}
+\end{center}
+
+\noindent La asamblea se llevará a cabo de forma \textbf{telemática} a través del equipo de \textbf{Microsoft Teams} de la asociación.
+
+\vspace{0.5cm}
+
+\noindent \textbf{Orden del día:}
+\begin{enumerate}
+    \item Bienvenida y apertura de la sesión.
+    \item Lectura y aprobación, si procede, del acta anterior.
+    \item Creación de comisiones y elección, si procede, de sus coordinadores.
+    \item Revisión y aprobación de las actividades para el año 2025.
+    \item Ruegos y preguntas.
+    \item Clausura de la sesión.
+\end{enumerate}
+
+\vspace{1cm}
+\noindent Atentamente,\\
+\textbf{\firmanteNombre}\\ % Nombre
+\textbf{\firmanteCargo}\\ % Cargo
+\textbf{\today} % Fecha
+
+\end{document}
