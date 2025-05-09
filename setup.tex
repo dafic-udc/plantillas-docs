@@ -7,6 +7,13 @@ Atentamente,\\
 \textbf{\firmaNombre}\\
 \textbf{\firmaCargo}\\
 \textbf{\firmaFecha}
+
+% https://tex.stackexchange.com/a/26530
+\hypersetup{pdfauthor={\firmaNombre},
+            pdftitle={\subject},
+            pdfsubject={\subject},
+            pdfproducer={TeX},
+            pdfcreator={pdflatex}}
 }
 
 
@@ -16,7 +23,6 @@ Atentamente,\\
 \usepackage{textcase}
 \usepackage{romannum}
 \usepackage[spanish]{babel}
-\usepackage{hyperref}
 \usepackage{multicol}
 \usepackage{float}
 \usepackage{placeins}
